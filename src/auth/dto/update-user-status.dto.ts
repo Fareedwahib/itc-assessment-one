@@ -1,4 +1,4 @@
-import { IsEmail, IsEnum, IsString, IsUUID } from 'class-validator';
+import { IsEmail, IsEnum } from 'class-validator';
 import { UserStatus } from '../entities/user.entity';
 
 export class UpdateUserStatusDto {
